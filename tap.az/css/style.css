@@ -1,0 +1,98 @@
+.sosial-media {
+    height: 40px;
+    font-size: 15px;
+    background-color: #555;
+    padding: 8px;
+}
+
+.sosial-media a {
+    color: white;
+    margin: auto;
+}
+
+.sosial-media .esas-sehife a:hover {
+    border: thin solid gray;
+    transition-duration: 0.1s;
+    background-color: #6f6f6f;
+}
+
+.sosial-media .sosial-media-icon a:hover {
+    border: thin solid #FF6617;
+    transition-duration: 0.1s;
+    background-color: #FF6617;
+}
+
+.tap-az-header {
+    background-color: #FF6617;
+}
+
+.tap-az-header .logo {
+    padding: 10px 0;
+}
+
+.tap-az-header .logo h1 a {
+    color: white;
+    font-size: 50px;
+}
+
+.tap-az-header .pull-right a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tap-az-header .elan a {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-content {
+    background-color: #F7F6F6;
+}
+
+.main-content .vip-elanlar {
+    height: 50px;
+    background-color: #ffffff;
+}
+
+.main-content .my-card {
+    border: none;
+    background-color: #F7F6F6;
+}
+
+.main-content img {
+    height: 180px;
+}
+
+.main-content .my-card .my-card-border {
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.main-content .my-card-border:hover {
+    background-color: rgb(208, 243, 238);
+}
+
+.main-content .my-card-border .my-card-top {
+    position: relative;
+}
+
+.main-content .my-card-border .my-card-top i {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* NOT WORKING  WHYYYYYYYYY???????? */
+
+
+/* @media only screen and (min-width: 575px) {
+    [class*=".my-card "] {
+        width: 60%;
+    }
+} */
